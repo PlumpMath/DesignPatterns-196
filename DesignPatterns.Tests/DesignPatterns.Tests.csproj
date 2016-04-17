@@ -45,16 +45,20 @@
     </When>
     <Otherwise>
       <ItemGroup>
-        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
+          <Private>False</Private>
+        </Reference>
       </ItemGroup>
     </Otherwise>
   </Choose>
   <ItemGroup>
     <Compile Include="ConsoleRedirector.cs" />
-    <Compile Include="Decorator\CircleTest.cs" />
-    <Compile Include="Decorator\RectangleTest.cs" />
-    <Compile Include="Decorator\RedShapeDecoratorBuilder.cs" />
-    <Compile Include="Decorator\RedShapeDecoratorTest.cs" />
+    <Compile Include="Structural\Bridge\CircleBuilder.cs" />
+    <Compile Include="Structural\Bridge\CircleTest.cs" />
+    <Compile Include="Structural\Decorator\CircleTest.cs" />
+    <Compile Include="Structural\Decorator\RectangleTest.cs" />
+    <Compile Include="Structural\Decorator\RedShapeDecoratorBuilder.cs" />
+    <Compile Include="Structural\Decorator\RedShapeDecoratorTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

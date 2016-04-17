@@ -45,6 +45,12 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structural\Bridge\BridgePatternDemo.cs" />
+    <Compile Include="Structural\Bridge\Circle.cs" />
+    <Compile Include="Structural\Bridge\DrawAPI.cs" />
+    <Compile Include="Structural\Bridge\GreenCircle.cs" />
+    <Compile Include="Structural\Bridge\RedCircle.cs" />
+    <Compile Include="Structural\Bridge\Shape.cs" />
     <Compile Include="Structural\Decorator\Circle.cs" />
     <Compile Include="Structural\Decorator\Rectangle.cs" />
     <Compile Include="Structural\Decorator\RedShapeDecorator.cs" />
@@ -55,6 +61,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

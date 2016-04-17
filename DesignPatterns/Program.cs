@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DesignPatterns.Structural.Bridge;
 using DesignPatterns.Structural.Decorator;
 
 namespace DesignPatterns
@@ -11,7 +12,9 @@ namespace DesignPatterns
 	{
 		static void Main(string[] args)
 		{
-			ShapeDecoratorDemo.Run();
+			//ShapeDecoratorDemo.Run();
+
+			BridgePatternDemo.Run();
 
 			Console.ReadKey();
 		}
