@@ -10,7 +10,7 @@ namespace DesignPatterns.Structural.Decorator
 	{
 		public void draw()
 		{
-			Console.WriteLine("Shape: Circle");
+			Console.WriteLine($"Shape: {nameof(Circle)}");
 		}
 	}
 }
