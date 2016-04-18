@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\MementoPattern\CareTaker.cs" />
+    <Compile Include="Behavioral\MementoPattern\Memento.cs" />
+    <Compile Include="Behavioral\MementoPattern\MementoPatternDemo.cs" />
+    <Compile Include="Behavioral\MementoPattern\Originator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structural\Bridge\BridgePatternDemo.cs" />
